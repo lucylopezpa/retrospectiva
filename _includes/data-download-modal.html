@@ -6,7 +6,7 @@
 {%- endcomment -%}
 
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
-<button type="button" class="btn btn-primary btn-lg float-md-end" data-bs-toggle="modal" data-bs-target="#dataModal">Download Data</button>
+<button type="button" class="btn btn-primary btn-lg float-md-end" data-bs-toggle="modal" data-bs-target="#dataModal">Descargar Datos</button>
 <!-- Modal -->
 <div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="dataModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -22,8 +22,8 @@
                 {% if site.data.theme.metadata-export-fields %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h2 class="card-title h4">Complete Metadata</h2>
-                        <p class="card-text">All metadata fields for all collection items, available as a CSV spreadsheet (usable in Excel, Google Sheets, and similar programs) or JSON file (often used with web applications).</p>
+                        <h2 class="card-title h4">Metadata Completa</h2>
+                        <p class="card-text">Todos los campos de metadatos de la colección están disponibles en formato CSV o JSON.</p>
                         <a href="{{ '/assets/data/metadata.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Metadata CSV</a>
                         <a href="{{ '/assets/data/metadata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Metadata JSON</a>
                     </div>
@@ -33,7 +33,7 @@
                 <div class="card my-3">
                     <div class="card-body">
                         <h2 class="card-title h4">Metadata Facets</h2>
-                        <p class="card-text">List of unique values and their count for specific metadata fields, useful for understanding content of the fields.</p>
+                        <p class="card-text">Lista de valores unicos y los campos específicos de los metadatos, utiles para comprender el contenido de los campos.</p>
                         <a href="{{ '/assets/data/facets.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Facets JSON</a>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                 <div class="card my-3">
                     <div class="card-body">
                         <h2 class="card-title h4">Subject Metadata</h2>
-                        <p class="card-text">Unique values and counts of subject metadata, useful for further analyzing the content of this collection.</p>
+                        <p class="card-text">Volores unicos y temas de metadatos, útiles para analizar más a fondo el contenido de esta colección.</p>
                         <a href="{{ '/assets/data/subjects.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Subjects CSV</a>
                         <a href="{{ '/assets/data/subjects.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Subjects JSON</a>
                     </div>
@@ -52,7 +52,7 @@
                 <div class="card my-3">
                     <div class="card-body">
                         <h2 class="card-title h4">Locations</h2>
-                        <p class="card-text">Unique values and counts of location metadata, useful for further visualization and analysis of this collection's place names.</p>
+                        <p class="card-text">Volores unicos y localización de metadatos, útiles para una mayor visualización y análisis de los nombres de lugares de esta colección.</p>
                         <a href="{{ '/assets/data/locations.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Locations CSV</a>
                         <a href="{{ '/assets/data/locations.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Locations JSON</a>
                     </div>
@@ -62,7 +62,7 @@
                 <div class="card my-3">
                     <div class="card-body">
                         <h2 class="card-title h4">GeoJSON</h2>
-                        <p class="card-text">Metadata for all collection items that have geographic coordinates in <a href="https://en.wikipedia.org/wiki/GeoJSON" target="_blank" rel="noopener">GeoJSON</a> format, useful for further exploration and analysis of this collection through a geographical lense.</p>
+                        <p class="card-text">Metadatos para todos los elementos de la colección que tienen coordenadas geográficas en<a href="https://en.wikipedia.org/wiki/GeoJSON" target="_blank" rel="noopener">GeoJSON</a> format, useful for further exploration and analysis of this collection through a geographical lense.</p>
                         <a href="{{ '/assets/data/geodata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Geodata JSON</a>
                     </div>
                 </div>
