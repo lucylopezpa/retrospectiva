@@ -5,22 +5,22 @@ custom-foot: js/lunr-js.html
 ---
 {%- assign fields = site.data.config-search | where: 'index',true | map: 'field' -%}
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-outline-primary float-end" data-bs-toggle="modal" data-bs-target="#operators">Search Options</button>
+<button type="button" class="btn btn-outline-primary float-end" data-bs-toggle="modal" data-bs-target="#operators">Operadores De Búsqueda</button>
 <!-- Modal -->
 <div class="modal fade" id="operators" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalLabel">Lunr Search Options</h5>
+                <h5 class="modal-title" id="modalLabel">Operadores De Búsqueda Lunr</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>These advanced options can be added to your query in the search box to refine your results:</p> 
                 <ul>
-                    <li>Search a specific field: use the field name, colon, then your query, e.g. <code>title:foo</code>, <code>date:1911</code>, <code>subject:tree</code>. In this collection you can use {{ fields | join: ", " }}.</li>
-                    <li>Wildcards: add <code>*</code> to match any character(s), e.g. <code>foo*</code>, <code>*oo</code>. This is helpful for using a root to find words with all related endings.</li>
-                    <li>Fuzzy match: add <code>~</code> plus a number at the end of your query to specify a higher level of fuzziness in search, e.g. <code>foo~1</code>. This can help with misspellings.</li>
-                    <li>Boost term: add <code>^</code> plus a number to boost the relevance of a term in your query, e.g. <code>foo^10</code>. This can help reduce clutter of unrelated results if one of your terms is most important.</li>
+                    <li>Busque un campo específico: use el nombre del campo, dos puntos y luego su consulta, e.g. <code>título:casa</code>, <code>fecha:1911</code>, <code>tema:antropología</code>. En esta colección puede usar {{ fields | join: ", " }}.</li>
+                    <li>Wildcards: agrega <code>*</code> Para coincidir con cualquier caracter, e.g. <code>cas*</code>, <code>*asa</code>. Esto es util para encontrar palabras con coincidan con el inicio o la terminación.</li>
+                    <li>Coincidencia Difusa: agrega <code>~</code> más un número al final de su consulta para especificar un mayor nivel de precisión en la búsqueda, e.g. <code>cas~a</code>. Esto puede ayudar con errores ortográficos.</li>
+                    <li>Término de incremento: agrega <code>^</code> más un número al final de su consulta para especificar un mayor nivel de precisión en la búsqueda, e.g. <code>cas^10</code>. Esto ayuda a ordernar las busquedas y obtener resultados importantes.</li>
                 </ul>
             </div>
         </div>
@@ -32,7 +32,7 @@ custom-foot: js/lunr-js.html
 <div class="ms-3 mt-3">
     <form class="" role="search" id="lunrSearch" onsubmit="lunr_search(); return false;">
         <div class="input-group input-group-lg">
-            <input id="lunrSearchBox" class="form-control " type="text" placeholder="Enter your search term..." >
+            <input id="lunrSearchBox" class="form-control " type="text" placeholder="Introduzca un termino de búsqueda..." >
             <button class="btn btn-success" type="submit">
                 Search
             </button>
@@ -43,5 +43,5 @@ custom-foot: js/lunr-js.html
 </div>
 
 <div class="mt-3">
-    <p class="text-muted">Fuzzy search powered by <a href="https://lunrjs.com/" target="_blank" rel="noopener">Lunr.js</a>. <em>May take a second to load large collections!</em></p>
+    <p class="text-muted">Fuzzy search powered by <a href="https://lunrjs.com/" target="_blank" rel="noopener">Lunr.js</a>. <em>Puede tomar algunos segundos para colecciones grandes!</em></p>
 </div>
