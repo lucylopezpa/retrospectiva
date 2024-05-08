@@ -34,7 +34,7 @@
     var markerFilter = url.searchParams.get('marker') ? url.searchParams.get('marker') : "";
 
     /* init map, set center and zoom */
-    var map = L.map('map').setView(mapCenter, mapZoom);
+    var map = L.map('map').set(mapCenter, mapZoom);
 
     /* add map layer options */
     var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
@@ -142,7 +142,7 @@
         }
         {% endif %}{% endfor %}
         /* add object link button to popup */
-        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
+        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >Ver Ítem</a></div>';
         /* add object popup to map layer */
         layer.bindPopup(popupTemplate);
     }
