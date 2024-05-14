@@ -3,3 +3,4 @@ date,Fecha,true
 creator,Creador(a),true
 subject,Temas,true
 location,Localización,true
+contributor,Colaboración,true
