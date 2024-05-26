@@ -9,7 +9,7 @@
 
 ## Ida Esbra. 
 
-A mediados de la década de 1970, el arte conceptual irrumpió en el panorama artístico, impulsando a una nueva generación de fotógrafos a explorar nuevas formas de expresión. Entre ellos se encontraba Ida Esbra (Holanda,1929- Barranquilla, 2009) cuya obra de transita entre dos caminos: el antropológico y el documental-artístico. Esbra experimentó con diversas técnicas fotográficas e introdujo elementos que alteraban el paisaje en la fotografía, a través del juego con la luz, texturas y composición. Su trabajo es un testimonio de los procesos artísticos de experimentación y exploración del arte conceptual entre los años setenta y ochenta en Colombia. 
+A mediados de la década de 1970, el arte conceptual irrumpió en el panorama artístico, impulsando a una nueva generación de fotógrafos a explorar nuevas formas de expresión. Entre ellos se encontraba Ida Esbra (Holanda,1929- Barranquilla, 2009). Una artista cuya obra de transita entre dos caminos: el antropológico y el documental-artístico. Esbra experimentó con diversas técnicas fotográficas e introdujo elementos que alteraban el paisaje en la fotografía, a través del juego con la luz, texturas y composición. Su trabajo es un testimonio de los procesos artísticos de experimentación y exploración del arte conceptual entre los años setenta y ochenta en Colombia. 
 
 ### Include Collection Items
 
