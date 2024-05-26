@@ -1,4 +1,4 @@
- % assign imagesample = site.data[site.metadata] | where_exp: 'item','item.format contains "image"' | first %}
+ {% assign imagesample = site.data[site.metadata] | where_exp: 'item','item.format contains "image"' | first %}
  {% capture imagesampleid %}{{imagesample.objectid | default: "https://lucylopezpa.github.io/retrospectiva/item.html?id=coll031"}}{% endcapture %}
 
 ## Ida Esbra. 
