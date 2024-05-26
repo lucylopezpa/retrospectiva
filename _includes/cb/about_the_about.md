@@ -7,20 +7,9 @@
 {% assign audiosample = site.data[site.metadata] | where_exp: 'item','item.format contains "audio"' | first %}
 {% capture audiosampleid %}{{audiosample.objectid | default: "https://www.lib.uidaho.edu/digital/mp3s/Clouds.mp3"}}{% endcapture %}
 
-## About the About Page
+## Ida Esbra. 
 
-We want to make engaging interpretive pages easier to create, so CollectionBuilder gives you tools to write *with* your collection content!
-
-The template comes with a customizable "About" page layout designed for long form content with rich media embeds.
-Content is written in [Markdown](https://guides.github.com/features/mastering-markdown/) and enhanced using "includes" that pull in collection content, external media, and [Bootstrap](https://getbootstrap.com/) features like cards and modals.
-We hope this makes it easier for site builders to develop the collection AND add interesting and engaging contextual information. 
-
-Each "include" file has several options, which are documented in the files themselves--copy the examples to see how it works with your content! 
-In the demo below, we've given display widths of 25% and 50% to save space, but you can feature the entire image or document.
-
-You can also see a page featuring [a bonanza of feature includes options](https://collectionbuilder.github.io/collectionbuilder-gh/feature_options.html) on our CollectionBuilder-GH demo site. 
-
-{% include feature/button.html text="Feature *Includes* Bonanza page" link="https://collectionbuilder.github.io/collectionbuilder-gh/feature_options.html" color="primary" size="lg" centered=true %}
+A mediados de la década de 1970, el arte conceptual irrumpió en el panorama artístico, impulsando a una nueva generación de fotógrafos a explorar nuevas formas de expresión. Entre ellos se encontraba Ida Esbra (Holanda,1929- Barranquilla, 2009) cuya obra de transita entre dos caminos: el antropológico y el documental-artístico. Esbra experimentó con diversas técnicas fotográficas e introdujo elementos que alteraban el paisaje en la fotografía, a través del juego con la luz, texturas y composición. Su trabajo es un testimonio de los procesos artísticos de experimentación y exploración del arte conceptual entre los años setenta y ochenta en Colombia. 
 
 ### Include Collection Items
 
