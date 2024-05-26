@@ -8,6 +8,9 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
+{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+
+{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 
 ## Acerca de esta colección
 
@@ -15,6 +18,11 @@ credits: true
 
 Con la firme convicción que los archivos aún guardan tesoros, *Somos el resultado de los que vemos*: Ida Esbra y la fotografía del Caribe se propone expandir y revisar las formas en que los objetos de un archivo se interpretan y se manifiestan en nuestro presente. A través de una mirada artística y sensible de la fotografía, esta curaduría serie se sumerge en una conexión profunda con Caribe. 
  
+The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
 
+For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+
+<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
+{% include cb/about_the_about.md %} 
 
 
