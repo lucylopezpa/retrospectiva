@@ -1,5 +1,5 @@
  % assign imagesample = site.data[site.metadata] | where_exp: 'item','item.format contains "image"' | first %}
- {% capture imagesampleid %}{{imagesample.objectid | default: "https://www.lib.uidaho.edu/collectionbuilder/demo-objects/mg101_b6_photographs_01.jpg"}}{% endcapture %}
+ {% capture imagesampleid %}{{imagesample.objectid | default: "https://lucylopezpa.github.io/retrospectiva/item.html?id=coll031"}}{% endcapture %}
 
 ## Ida Esbra. 
 A mediados de la década de 1970, el arte conceptual irrumpió en el panorama artístico, impulsando a una nueva generación de fotógrafos a explorar nuevas formas de expresión. Entre ellos se encontraba Ida Esbra (Holanda,1929- Barranquilla, 2009). Una artista cuya obra de transita entre dos caminos: el antropológico y el documental-artístico. Esbra experimentó con diversas técnicas fotográficas e introdujo elementos que alteraban el paisaje en la fotografía, a través del juego con la luz, texturas y composición. Su trabajo es un testimonio de los procesos artísticos de experimentación y exploración del arte conceptual entre los años setenta y ochenta en Colombia. 
