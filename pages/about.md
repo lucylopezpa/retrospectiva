@@ -14,12 +14,10 @@ credits: true
 
 ## Acerca de esta colección
 
-Este sitio se ha generado usando [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+*Somos el resultado de los que vemos*, la mirada aguda y la sensibilidad artística de Ida Esbra nos sumerge en un universo donde la fotografía trasciende su función convencional como mero documento. En esta curaduría, nos adentramos en un territorio donde las imágenes no solo capturan la realidad tangible, sino que también exploran las profundidades de la experiencia humana y la transforman en arte.
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
-
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+Con la firme convicción que los archivos aún guardan tesoros, Somos el resultado de los que vemos:  Ida Esbra y la fotografía del Caribe se propone expandir y revisar las formas en que los objetos de un archivo se interpretan y se manifiestan en nuestro presente. A través de una mirada artística y sensible de la fotografía, esta curaduría serie se sumerge en una conexión profunda con Caribe. 
+ 
 
 For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
 
