@@ -24,7 +24,7 @@ Esta obra refleja una inclinación ambientalista y ecologista por parte de la ar
 
 #### Incluye Una Imagen
 
-- Image --> `{% raw %}{% include feature/image.html objectid="coll031" width="75" %}{% endraw %}`
+- Image --> `{% raw %}{% include feature/image.html objectid="coll001" width="75" %}{% endraw %}`
 
 {% include feature/image.html objectid=imagesampleid width="75" %}
 
