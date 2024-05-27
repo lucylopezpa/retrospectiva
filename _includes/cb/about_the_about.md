@@ -28,5 +28,11 @@ Esta obra refleja una inclinación ambientalista y ecologista por parte de la ar
 
 {% include feature/image.html objectid=imagesampleid width="75" %}
 
+#### Sobre los derechos de Autor.
+ 
+Las fotografías que se muestran hasta la fecha son propiedad exclusiva de Ida Esbra y sus herederos. © 2024.Todos los derechos reservados.
+ 
+Estas fotografías están siendo expuestas por permiso de los herederos de la artista. Parte de la digitalización de este archivo es cortesía de Archivo Arkhé. Pertenecen al archivo personal de Ida Esbra en manos de sus herederos y al Fondo Nina S. de Friedemann de la Colección Documental del Banco de la República en custodia de la Biblioteca Luis Ángel Arango.
+
 
 
