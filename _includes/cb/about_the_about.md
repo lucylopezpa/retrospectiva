@@ -22,11 +22,10 @@ Con Triple (1977), recibe el primer premio del Salón de Artistas Costeños Icet
 
 Esta obra refleja una inclinación ambientalista y ecologista por parte de la artista. Aunque este tema era incipiente en el ámbito del arte colombiano, estaba alineada con las transformaciones que se estaban produciendo en el panorama artístico de la época. En el país, solo se conoce hasta ahora de otros tres artistas que se dedicaron a explorar temáticas similares en formato audiovisual de manera paralela: Jacques Marchal (1942-2012), documentalista belga residente en Bogotá, quien produjo los documentales  Nuestra tierra era verde (1976) y El lado oscuro del nevado (1979); Abdú Eljaiek (1933) con el trabajo Permitido en Colombia (1977-1979) en el que capta fotográficamente el daño ecológico en las inmediaciones del río León (Urabá) causado por la explotación forestal de la empresa Maderas del Darién; y el barranquillero Alfonso Suárez, en su serie de registros fotográficos del performance Desconcierto (1981) 4(Posada, 2021, p.33).
 
-#### Incluye Una Imagen
 
 {% include feature/image.html objectid=imagesampleid width="75" %}
 
-#### Sobre los derechos de Autor.
+#### Sobre los Derechos de Autor.
  
 Las fotografías que se muestran hasta la fecha son propiedad exclusiva de Ida Esbra y sus herederos. © 2024. Todos los derechos reservados.
  
