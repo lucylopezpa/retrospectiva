@@ -6,9 +6,9 @@ Check all the includes. Steal Code!
 
 #### Image from Collection (auto caption)
 
-{% include feature/image.html objectid="demo_001" width="75" %}
+{% include feature/image.html objectid="coll031" width="75" %}
 
-Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001" width="75" %}{% endraw %}`
+Example Code --> `{% raw %}{% include feature/image.html objectid="coll031" width="75" %}{% endraw %}`
 
 
 #### Image from Collection (with a caption)
