@@ -20,7 +20,7 @@ Example Code --> `{% raw %}{% include feature/image.html objectid="coll031" widt
 
 #### Multiple Images from the Collection (auto caption)
 
-{% include feature/image.html objectid="demo_001;demo_004;demo_005"  %}
+{% include feature/image.html objectid="coll020;coll005;coll030"  %}
 
 Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001;demo_004;demo_005"  %}{% endraw %}`
 
