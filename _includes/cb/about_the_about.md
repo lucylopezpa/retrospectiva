@@ -16,15 +16,13 @@ Paralelamente, Esbra desarrolló un trabajo artístico y conceptual, registro de
 #### Exposiciones.
 El trabajo fotográfico de Esbra ha hecho parte de las exposiciones colectivas en el XXIV Salón Nacional de Artistas (1973), V Salón de Arte Joven, Museo Zea (1974, Medellín), Mujeres entre líneas: Una historia en clave de educación, arte y género (2015), Voces íntimas. Relatos e imágenes de mujeres artistas (2017) del Museo Nacional de Colombia, In his steps (2017), en Arles Francia y La naturaleza de las cosas: Humboldt, idas y venidas (2019) del Museo de Arte Universidad Nacional de Colombia.
 
-#### Tríptico Triple(1977). Premio ICETEX, I Salón de Artistas Costeños.
+#### Tríptico (1977). Premio ICETEX, I Salón de Artistas Costeños.
 
 Con Triple (1977), recibe el primer premio del Salón de Artistas Costeños Icetex. Las tres fotografías a blanco y negro se presentan juntas, formando un tríptico. Cada fotografía muestra una pila de objetos diferentes: cajas de cartón vacías y envases plásticos, botellas de vidrios vacías y latas de aceite, que representan una cantidad excesiva de basura. Todas las fotografías tienen un cielo con nubes como fondo. En la tercera fotografía, un periódico se suspende en el aire en la esquina derecha, sugiriendo un ambiente contaminado y una sensación de incertidumbre. La obra puede interpretarse como una crítica a la sociedad de consumo, en la que se contraponen los ritmos naturales del entorno con los ritmos artificiales de la sociedad. 
 
 Esta obra refleja una inclinación ambientalista y ecologista por parte de la artista. Aunque este tema era incipiente en el ámbito del arte colombiano, estaba alineada con las transformaciones que se estaban produciendo en el panorama artístico de la época. En el país, solo se conoce hasta ahora de otros tres artistas que se dedicaron a explorar temáticas similares en formato audiovisual de manera paralela: Jacques Marchal (1942-2012), documentalista belga residente en Bogotá, quien produjo los documentales  Nuestra tierra era verde (1976) y El lado oscuro del nevado (1979); Abdú Eljaiek (1933) con el trabajo Permitido en Colombia (1977-1979) en el que capta fotográficamente el daño ecológico en las inmediaciones del río León (Urabá) causado por la explotación forestal de la empresa Maderas del Darién; y el barranquillero Alfonso Suárez, en su serie de registros fotográficos del performance Desconcierto (1981) 4(Posada, 2021, p.33).
 
 #### Incluye Una Imagen
-
-- Image --> `{% raw %}{% include feature/image.html objectid="coll001" width="75" %}{% endraw %}`
 
 {% include feature/image.html objectid=imagesampleid width="75" %}
 
