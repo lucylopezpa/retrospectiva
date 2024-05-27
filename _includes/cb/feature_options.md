@@ -13,7 +13,7 @@ Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001" wid
 
 #### Image from Collection (with a caption)
 
-{% include feature/image.html objectid="demo_001" width="75" caption="an image" %}
+{% include feature/image.html objectid="coll031" width="75" caption="an image" %}
 
 Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001" width="75" caption="an image" %}{% endraw %}`
 
