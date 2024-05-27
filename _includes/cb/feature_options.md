@@ -27,7 +27,7 @@ Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001;demo
 
 #### Multiple Images from the Collection (with captions)
 
-{% include feature/image.html objectid="demo_001;demo_004;demo_005" width="75" caption="demo1;nother" %}
+{% include feature/image.html objectid="coll020;coll005;coll030" width="75" caption="demo1;nother" %}
 
 Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001;demo_004;demo_005" width="75" caption="demo1;nother" %}{% endraw %}`
 
